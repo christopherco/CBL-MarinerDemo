@@ -5,7 +5,7 @@
 %global __provides_exclude_from %{_libdir}/debug/.build-id/
 %endif
 Summary:        Linux Kernel
-Name:           kernel
+Name:           custom-kernel
 Version:        5.15.41.1
 Release:        1%{?dist}
 License:        GPLv2
@@ -13,7 +13,7 @@ Vendor:         Microsoft Corporation
 Distribution:   Mariner
 Group:          System Environment/Kernel
 URL:            https://github.com/microsoft/CBL-Mariner-Linux-Kernel
-Source0:        https://github.com/microsoft/CBL-Mariner-Linux-Kernel/archive/rolling-lts/mariner-2/%{version}.tar.gz#/%{name}-%{version}.tar.gz
+Source0:        https://github.com/microsoft/CBL-Mariner-Linux-Kernel/archive/rolling-lts/mariner-2/%{version}.tar.gz#/kernel-%{version}.tar.gz
 Source1:        config
 Source2:        config_aarch64
 Source3:        sha512hmac-openssl.sh
