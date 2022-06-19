@@ -13,7 +13,7 @@
                 }
             ],
             "KernelOptions": {
-                "default": "kernel"
+                "default": "custom-kernel"
             },
             "AdditionalFiles": {
                 "demo_files/demo_file.txt": "/final_file.txt"
